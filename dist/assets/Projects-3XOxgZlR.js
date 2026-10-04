@@ -1,6 +1,0 @@
-import{c as i,j as e,S as c,m as s,p as l,f as o,s as n}from"./index-DayD1KXS.js";/**
- * @license lucide-react v0.454.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const d=i("ArrowUpRight",[["path",{d:"M7 7h10v10",key:"1tivn9"}],["path",{d:"M7 17 17 7",key:"1vkiza"}]]);function j(){return e.jsx("section",{id:"projects",className:"section",children:e.jsxs("div",{className:"container",children:[e.jsx(c,{title:"Projects & Work",text:"SEO work by category. These cards are placeholders: replace them with your own projects in portfolioData.js."}),e.jsx(s.ul,{className:"card-grid",variants:n(.08),initial:"hidden",whileInView:"show",viewport:{once:!0,margin:"-60px"},children:l.map((a,t)=>e.jsxs(s.li,{variants:o,className:"card glass project",whileHover:{y:-6},children:[e.jsx("div",{className:`project-art art-${t%3}`,"aria-hidden":"true"}),e.jsx("p",{className:"project-cat",children:a.category}),e.jsx("h3",{children:a.title}),e.jsx("p",{children:a.text}),e.jsx("ul",{className:"tag-list",children:a.tags.map(r=>e.jsx("li",{className:"pill",children:r},r))}),a.link&&e.jsxs("a",{className:"link",href:a.link,target:"_blank",rel:"noopener noreferrer",children:["View project ",e.jsx(d,{size:16,"aria-hidden":"true"})]})]},a.category))})]})})}export{j as default};
